@@ -1,4 +1,4 @@
-# Check if a number is triangular (product of three consecutive integers)
+# Check if a number (n>0) is triangular (product of three consecutive integers)
 n=int(input("Num: "))
 cont=0
 while cont*(cont+1)*(cont+2)<n:
